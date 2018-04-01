@@ -14,14 +14,18 @@ Setting up speech recognition and transcription on a Mac is surprisingly easy us
 First you'll need to have homebrew, which you can find [here][brew]. Homebrew is an excellent package manager for Mac, and makes it easy to install a better version of Python than what comes bundled with the Mac.
 
 Once you have homebrew (and the Python installation of your choice) open up a terminal and run:
-```$ brew install portaudio
+
+```
+$ brew install portaudio
 ```
 This installs the requirement for the [Speech Recognition library][sr-py] for Python. Afterwards, you can run: 
-```$ pip install pyaudio 
+```
+$ pip install pyaudio 
 $ pip install SpeechRecognition
 ```
 And you have the requirements in place! You can test it out by running: 
-```$ python -m speech_recognition
+```
+$ python -m speech_recognition
 ```
 And you should see it working in your terminal.
 
