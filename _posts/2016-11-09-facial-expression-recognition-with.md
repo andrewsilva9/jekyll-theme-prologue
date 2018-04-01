@@ -58,7 +58,7 @@ If you're interested in working with the larger dataset, the files are all there
 
 To run my project, simply throw all of the files into the same directory and run the `emotion_runner.py` file. It'll take a second to load up the models and set up the webcam, and then you'll start seeing classifications of your face!
 
-![PyCharm showing me classifications of my face]]({{ "/assets/images/opencv3_er.png" | absolute_url }})
+![PyCharm showing me classifications of my face]({{ "/assets/images/opencv3_er.png" | absolute_url }})
 
 Overall, performance isn't too terrible. For happy, neutral, angry, and surprised you can count on it to work pretty reliably. The other emotions in the small dataset (disgust, contempt, sadness, and fear) are tougher to get, presumably because they are very specific in the training data and hard to replicate naturally.
 
