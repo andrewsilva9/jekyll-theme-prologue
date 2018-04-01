@@ -5,7 +5,7 @@ date: '2016-11-09T09:28:00.000-05:00'
 author: Andrew Silva
 ---
 
-Facial expressions are a very interesting problem for a variety of reasons. Of interest to me particularly is trying to mirror facial expressions in robotics, to make people more comfortable or to ease communication between humans and robots. As a starting point, if you want to train your own classifiers on the small dataset that my project references, you'll need to work with the Cohn and Kanade dataset, [available here](http://www.consortium.ri.cmu.edu/ckagree/). Similarly, the "giant dataset" that my code refers to is the fer2013.csv file that you can [download from Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data). However, you can just use the models bundled up in my repo, which you can [pull down here](https://github.com/andrewsilva9/ExpressionRecognizer). In order to clean up the data, I followed and tweaked a tutorial [over here](http://www.paulvangent.com/2016/04/01/emotion-recognition-with-python-opencv-and-a-face-dataset/), but it isn't originally in OpenCV3 or Python3.
+Facial expressions are a very interesting problem for a variety of reasons. Of interest to me particularly is trying to mirror facial expressions in robotics, to make people more comfortable or to ease communication between humans and robots. As a starting point, if you want to train your own classifiers on the small dataset that my project references, you'll need to work with the Cohn and Kanade dataset, [available here][small-dataset]. Similarly, the "giant dataset" that my code refers to is the fer2013.csv file that you can [download from Kaggle][giant-dataset]. However, you can just use the models bundled up in my repo, which you can [pull down here][my-repo]. In order to clean up the data, I followed and tweaked a tutorial [over here][tutorial], but it isn't originally in OpenCV3 or Python3.
 
 The basic idea of the facial expression classifier I'm using is a boosted fisherface model. I trained 10 fisherface classifiers built into OpenCV on random subsets of the small dataset. At runtime, each incoming image is scanned for a face, scaled to be the same size as my small dataset images, and then run through all 10 of the classifiers. I take the mode of the 10 responses, and consider that to be the emotion represented by the incoming face.
 
@@ -58,7 +58,7 @@ If you're interested in working with the larger dataset, the files are all there
 
 To run my project, simply throw all of the files into the same directory and run the `emotion_runner.py` file. It'll take a second to load up the models and set up the webcam, and then you'll start seeing classifications of your face!
 
-![PyCharm showing me classifications of my face](https://github.com/andrewsilva9/jekyll-theme-prologue/blob/master/assets/images/opencv3_er.png)
+![PyCharm showing me classifications of my face][screenshot]
 
 Overall, performance isn't too terrible. For happy, neutral, angry, and surprised you can count on it to work pretty reliably. The other emotions in the small dataset (disgust, contempt, sadness, and fear) are tougher to get, presumably because they are very specific in the training data and hard to replicate naturally.
 
@@ -72,4 +72,9 @@ Future work will involve trying to classify facial expressions without needing t
 
 3. Lucey, P., Cohn, J. F., Kanade, T., Saragih, J., Ambadar, Z., & Matthews, I. (2010). The Extended Cohn-Kanade Dataset (CK+): A complete expression dataset for action unit and emotion-specified expression. Proceedings of the Third International Workshop on CVPR for Human Communicative Behavior Analysis (CVPR4HB 2010), San Francisco, USA, 94-101.
 
+[small-dataset]: http://www.consortium.ri.cmu.edu/ckagree
+[giant-dataset]: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+[my-repo]: https://github.com/andrewsilva9/ExpressionRecognizer
+[tutorial]: http://www.paulvangent.com/2016/04/01/emotion-recognition-with-python-opencv-and-a-face-dataset/
+[screenshot]: https://github.com/andrewsilva9/jekyll-theme-prologue/blob/master/assets/images/opencv3_er.png
 
