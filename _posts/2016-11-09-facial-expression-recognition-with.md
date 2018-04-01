@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Facial Expression Recognition with OpenCV 3+ and Python 3
+title: Facial Expressions with OpenCV 3+
 date: '2016-11-09T09:28:00.000-05:00'
 author: Andrew Silva
 ---
