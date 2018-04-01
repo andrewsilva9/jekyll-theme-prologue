@@ -58,7 +58,8 @@ If you're interested in working with the larger dataset, the files are all there
 
 To run my project, simply throw all of the files into the same directory and run the `emotion_runner.py` file. It'll take a second to load up the models and set up the webcam, and then you'll start seeing classifications of your face!
 
-![PyCharm showing me classifications of my face]({{ "/assets/images/opencv3_er.png" | absolute_url :width="50%" :height="50%" }})
+![PyCharm showing me classifications of my face]({{ "/assets/images/opencv3_er.png" | absolute_url}})
+<img src="https://andrewsilva9.github.io/jekyll-theme-prologue/assets/images/opencv3_er.png" height="50%">
 
 Overall, performance isn't too terrible. For happy, neutral, angry, and surprised you can count on it to work pretty reliably. The other emotions in the small dataset (disgust, contempt, sadness, and fear) are tougher to get, presumably because they are very specific in the training data and hard to replicate naturally.
 
@@ -76,4 +77,3 @@ Future work will involve trying to classify facial expressions without needing t
 [giant-dataset]: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 [my-repo]: https://github.com/andrewsilva9/ExpressionRecognizer
 [tutorial]: http://www.paulvangent.com/2016/04/01/emotion-recognition-with-python-opencv-and-a-face-dataset/
-
