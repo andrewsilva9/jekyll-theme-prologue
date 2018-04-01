@@ -287,6 +287,17 @@
 				width: auto;
 			}
 		}
+		&.centered-med {
+			display: block;
+			margin: 0 0 2em 0;
+
+			img {
+				margin: 0 auto;
+				width: auto;
+				width: 70%;
+				height: 70%;
+			}
+		}
 	}
 
 /* List */
