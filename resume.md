@@ -6,7 +6,7 @@ icon: fa-book
 order: 2
 ---
 
-# Resume
+# [Resume](assets/pdfs/resume.pdf)
 ***
 ### Education
 #### MS in Computer Science
