@@ -6,7 +6,7 @@ icon: fa-book
 order: 2
 ---
 
-# [Resume](assets/pdfs/resume.pdf)
+## [Resume](assets/pdfs/resume.pdf)
 ***
 ### Education
 #### MS in Computer Science
@@ -18,8 +18,12 @@ Georgia Institute of Technology
 #### Certificate in Business Entrepreneurship
 Georgia Institute of Technology
 2014
+
 ***
+
 ### Experience
+
+***
 #### Research Scientist I, Georgia Tech
 Atlanta, GA
 May 2017 -- Present
@@ -32,12 +36,14 @@ I work as a research scientist in the [RAIL lab](http://www.rail.gatech.edu), pr
 * Helped write and submit a workshop paper, two conference papers, and a journal paper.
 * Used deep networks to create video embeddings for a zero-shot learning project.
 
+***
 #### GTA, Georgia Tech
 Atlanta, GA
 August 2016 -- September 2017
 
 I worked as a TA for CS 6476, Intro to Computer Vision, helping about 200 students through the OMSCS program. As a TA for the course, I would host office hours, answer student questions online, and grade assignments.
 
+***
 #### Applications Developer, AT&T
 Atlanta, GA
 June 2014 -- December 2015
@@ -50,6 +56,7 @@ Within AT&T I worked primarily on two separate teams, CDI (Concept Development I
 * Assisted in development of data-visualization project for third-party advertisers
 * Worked as a developer on various web projects and Android projects within the Agile methodology.
 
+***
 #### Web Development Intern, Eclipse Web Media
 Atlanta, GA
 May 2013 - August 2013
@@ -58,18 +65,21 @@ I was an intern at a web development startup, working on custom WordPress themes
 
 ***
 
-# Publications
+## Publications
 
+***
 ### Journal Articles
 
 Banerjee, S., **Silva, A.**, Chernova, S. (2018) "Robot Classification of Human Interruptibility; and Its Effects" In Preparation for Special Issue on Artificial Intelligence for Human-Robot Interaction (THRI).
 
+***
 ### Conference Proceedings
 
 Banerjee, S. **Silva, A.**, Chernova, S. (2018) "Effects of Interruptibility-Aware Robot Behavior". Under Review, Robotics Science and Systems (RSS).
 
 Hahn, M, **Silva, A.**, Rehg, J. (2018) "Action2Vec: A Crossmodal Embedding Approach to Zero Shot Action Learning" In Preparation for British Machine Vision Conference (BMVC)
 
+***
 ### Workshops
 
 **Silva, A.**, Banerjee, S., Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [PDF link](assets/pdfs/hri-2018-interruptibility.pdf)
