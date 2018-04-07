@@ -19,7 +19,6 @@ Georgia Institute of Technology
 Georgia Institute of Technology
 2014
 
-***
 
 ### Experience
 
@@ -63,7 +62,6 @@ May 2013 - August 2013
 
 I was an intern at a web development startup, working on custom WordPress themes for various small business clients.
 
-***
 
 ## Publications
 
