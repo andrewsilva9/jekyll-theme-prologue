@@ -7,7 +7,7 @@ icon: fa-comment
 order: 1
 ---
 ### Welcome to my site!
-Check out my blog to see what I've been up to lately (and had the time to post about), and feel free to reach out!
+Check out my blog to see what I've been up to (and had time to post about), and feel free to reach out!
 
 <!-- 
 <footer>
