@@ -2,12 +2,8 @@
 layout: default
 ---
 {%- assign _posts = site.posts | sort: 'date' | reverse -%}
-{%- for _post in _posts -%}
-		{%- capture _title -%}
-			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
-		{%- endcapture -%}
-	{%- endfor -%}
-{%- include header.html scrolly_nav=_posts-%}
+
+{%- include header.html nav=_posts-%}
 
 <!-- Main -->
 <div id="main">
