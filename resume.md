@@ -73,12 +73,12 @@ Banerjee, S., **Silva, A.**, Chernova, S. (2018) "Robot Classification of Human 
 ***
 ### Conference Proceedings
 
-Banerjee, S. **Silva, A.**, Chernova, S. (2018) "Effects of Interruptibility-Aware Robot Behavior". Under Review, Robotics Science and Systems (RSS).
+Banerjee, S.\*, **Silva, A.\***, Chernova, S. (2018) "Effects of Interruptibility-Aware Robot Behavior". arXiv 1804.06383 \[cs.RO\] [Link](https://arxiv.org/abs/1804.06383)
 
 Hahn, M, **Silva, A.**, Rehg, J. (2018) "Action2Vec: A Crossmodal Embedding Approach to Zero Shot Action Learning" In Preparation for British Machine Vision Conference (BMVC)
 
 ***
 ### Workshops
 
-**Silva, A.**, Banerjee, S., Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [PDF link](assets/pdfs/hri-2018-interruptibility.pdf)
+**Silva, A.\* **, Banerjee, S.\*, Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [PDF link](assets/pdfs/hri-2018-interruptibility.pdf)
 
