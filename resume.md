@@ -80,5 +80,5 @@ Hahn, M, **Silva, A.**, Rehg, J. (2018) "Action2Vec: A Crossmodal Embedding Appr
 ***
 ### Workshops
 
-**Silva, A.\* **, Banerjee, S.\*, Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [PDF link](assets/pdfs/hri-2018-interruptibility.pdf)
+**Silva, A.\***, Banerjee, S.\*, Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [PDF link](assets/pdfs/hri-2018-interruptibility.pdf)
 
