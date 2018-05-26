@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making a Me-Chatbot (Part 1\: Gathering Some Data)
+title: Making a Me-Chatbot (Part 1, Gathering Some Data)
 date: '2018-05-25T00:00:00.000-00:00'
 author: Andrew Silva
 ---
