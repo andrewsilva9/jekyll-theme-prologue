@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Making a Me-Chatbot (Part 1 Gathering Some Data)
+title: Making a Me-Chatbot (Part 1\: Gathering Some Data)
 date: '2018-05-25T00:00:00.000-00:00'
 author: Andrew Silva
 ---
-
-### Motivation:
 
 Chatbots are cool, and growing in popularity. They're also a very tangible / interactive way of being introduced to many foundational elements of machine learning;. In this post, I'm look specifically at the often-understated challenge of putting together a dataset for any given task. Again, our task here is a chatbot, and it would be fun to make a chatbot that attempts to sound like me. So I'm using my own iMessage history as training data.
 
