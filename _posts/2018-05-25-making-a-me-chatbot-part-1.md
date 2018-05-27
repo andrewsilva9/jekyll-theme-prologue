@@ -13,7 +13,27 @@ We need the data to be in a format that the ultimate product is going to expect,
 
 ### Getting iMessage Data:
 
-Fortunately, some people have already made tools for scraping iMessage histories and putting them into a more usable format. I'm going to use [Baskup][baskup-link]. It's super easy and a great tool, all credit goes to Peter Kaminski for building it out. Go ahead and download it, load the .dmg file, turn off the "Backup Attachments" option, and run it. Once it finishes, click "show the files" and move all of those directories into the same directory as [this script][to_txt script], which just adds a ".txt" extension to all of the files that are generated. Once that's done, you have a directory full of directories, each with a .txt file that contains your iMessage history with that person or group. 
+Fortunately, some people have already made tools for scraping iMessage histories and putting them into a more usable format. I'm going to use [Baskup][baskup-link]. It's super easy and a great tool, all credit goes to Peter Kaminski for building it out. Go ahead and download it, load the .dmg file, turn off the "Backup Attachments" option, and run it. Once it finishes, click "show the files" and move all of those directories into the same directory as [this script][to_txt script] so you have something like this:
+```
+baskup_output
+|
+--Friend1
+   |
+   --Friend1
+   --Attachments
+--Friend2
+   |
+   --Friend2
+   --Attachments
+...
+to_txt.sh
+```
+For convenience, I want to put ".txt" on all of the extension-less files, and to move all of the new .txts into a single "master" directory that I can iterate over later. Running to `to_txt.sh` script does exactly that. Navigate to the directory where you have the baskup output and the `to_txt.sh` script, and just run:
+```
+$ sh to_txt.sh
+```
+
+This adds the extension to all of the conversation files, and moves them into that single master directory located at `~/Desktop/master`. Once that's done, you have all of your conversation history packaged conveniently into a master directory on your desktop, which we will eventually turn into training data and build a chatbot around.
 
 ### Up Next...
 
