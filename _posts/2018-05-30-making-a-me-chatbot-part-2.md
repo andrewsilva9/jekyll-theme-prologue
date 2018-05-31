@@ -32,7 +32,7 @@ for filename in os.listdir(master_dir):
             master_txt.remove(seq)
 
 ```
-So this is long and confusing, but basically it takes advantage of structure in the Baskup output. It generally puts messages in the format of:
+So this is long and confusing, but basically it takes advantage of structure in the Baskup output. Baskup generally puts messages in the format of:
 ```
 me: hello hello hello
  @ 05/30/18, 10:00 AM
