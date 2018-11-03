@@ -68,7 +68,7 @@ I was an intern at a web development startup, working on custom WordPress themes
 ***
 ### Journal Articles
 
-Banerjee, S., **Silva, A.**, Chernova, S. (2018) "Robot Classification of Human Interruptibility; and Its Effects" In Preparation for Special Issue on Artificial Intelligence for Human-Robot Interaction (THRI).
+Banerjee, S., **Silva, A.**, Chernova, S. (2018) "Robot Classification of Human Interruptibility; and Its Effects" Published in Special Issue on Artificial Intelligence for Human-Robot Interaction (THRI). [Link](https://dl.acm.org/citation.cfm?id=3277902) [Download](assets/pdfs/interruptibility_thri_2018.pdf) 
 
 ***
 ### Conference Proceedings
