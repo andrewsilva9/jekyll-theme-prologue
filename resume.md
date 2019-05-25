@@ -27,13 +27,16 @@ Georgia Institute of Technology
 Atlanta, GA
 May 2017 -- Present
 
-I work as a research scientist in the [RAIL lab](http://www.rail.gatech.edu), primarily on bringing deep learning perception methods to robots. While here, I have:
+I work as a research scientist in the [CORE lab](https://core-robotics.gatech.edu/), previously in the [RAIL lab](http://www.rail.gatech.edu), primarily on differentiable decision tree architectures, formerly on bringing visual perception to robots. While here, I have:
 
+* Submitted a few conference papers, been accepted as a first author to AAMAS '19.
+* Developed a differentiable decision tree architecture to enable intelligent initialization, and gone to present this work at the Naval Applications of Machine Learning workshop.
+* Helped write and submit a journal paper which was accepted to the Special Issue on Artificial Intelligence for Human-Robot Interaction (THRI).
+* Wrote and presented a workshop paper at HRI '18.
 * Wrapped several state of the art deep networks in ROS for deployment to an autonomous robot.
 * Published a [new ROS package](http://wiki.ros.org/rail_face_detector) for real time face detection using a deep network, and improved [an existing ROS package](http://wiki.ros.org/rail_object_detector) for real time object detection.
 * Conducted two user studies to evaluate the performance of an experimental algorithm against a random baseline
-* Helped write and submit a workshop paper, two conference papers, and a journal paper.
-* Used deep networks to create video embeddings for a zero-shot learning project.
+* Helped on a zero-shot learning project which fused language and video to predict verbs from video without labels.
 
 ***
 #### GTA, Georgia Tech
@@ -73,12 +76,18 @@ Banerjee, S., **Silva, A.**, Chernova, S. (2018) "Robot Classification of Human 
 ***
 ### Conference Proceedings
 
+**Silva, Andrew**, and Sonia Chernova. "Unsupervised Role Discovery Using Temporal Observations of Agents." Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems, 2019. [Download](assets/pdfs/sc_roles.pdf) 
+
+**Silva, Andrew**, and Matthew Gombolay. "ProLoNets: Neural-encoding Human Experts' Domain Knowledge to Warm Start Reinforcement Learning." arXiv preprint arXiv:1902.06007 (2019). [Link](https://arxiv.org/pdf/1902.06007.pdf)
+
+Seraj, Esmaeil, **Andrew Silva**, and Matthew Gombolay. "Safe Coordination of Human-Robot Firefighting Teams." arXiv preprint arXiv:1903.06847 (2019). [Link](https://arxiv.org/pdf/1903.06847.pdf)
+
 Banerjee, S.\*, **Silva, A.\***, Chernova, S. (2018) "Effects of Interruptibility-Aware Robot Behavior". arXiv 1804.06383 \[cs.RO\] [Link](https://arxiv.org/abs/1804.06383)
 
-Hahn, M, **Silva, A.**, Rehg, J. (2018) "Action2Vec: A Crossmodal Embedding Approach to Zero Shot Action Learning" In Preparation for British Machine Vision Conference (BMVC)
+Hahn, Meera, **Andrew Silva**, and James M. Rehg. "Action2Vec: A Crossmodal Embedding Approach to Zero Shot Action Learning."
 
 ***
 ### Workshops
 
-**Silva, A.\***, Banerjee, S.\*, Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [PDF link](assets/pdfs/hri-2018-interruptibility.pdf)
+**Silva, A.\***, Banerjee, S.\*, Chernova, S (2018) "Excuse Me, Could You Please Assemble These Blocks For Me?" Presented at the What Could Go Wrong? Workshop at Human-Robot Interaction (HRI). [Download](assets/pdfs/hri-2018-interruptibility.pdf)
 
