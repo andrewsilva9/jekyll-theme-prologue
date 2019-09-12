@@ -21,15 +21,21 @@ Georgia Institute of Technology
 
 
 ### Experience
+***
+#### Graduate Research Assistant, Georgia Tech
+Atlanta, GA
+August 2019 -- Present
+
+I work as a GRA in the CORE Robotics lab under Dr. Matthew Gombolay at Georgia Tech. My work is primarily focused on improving interpretability and initialzation of deep networks through new architectures.
 
 ***
 #### Research Scientist I, Georgia Tech
 Atlanta, GA
-May 2017 -- Present
+May 2017 -- August 2019
 
 I work as a research scientist in the [CORE lab](https://core-robotics.gatech.edu/), previously in the [RAIL lab](http://www.rail.gatech.edu), primarily on differentiable decision tree architectures, formerly on bringing visual perception to robots. While here, I have:
 
-* Submitted a few conference papers, been accepted as a first author to AAMAS '19.
+* Submitted a few conference papers (See below), been accepted as a first author to AAMAS '19.
 * Developed a differentiable decision tree architecture to enable intelligent initialization, and gone to present this work at the Naval Applications of Machine Learning workshop.
 * Helped write and submit a journal paper which was accepted to the Special Issue on Artificial Intelligence for Human-Robot Interaction (THRI).
 * Wrote and presented a workshop paper at HRI '18.
@@ -39,11 +45,11 @@ I work as a research scientist in the [CORE lab](https://core-robotics.gatech.ed
 * Helped on a zero-shot learning project which fused language and video to predict verbs from video without labels.
 
 ***
-#### GTA, Georgia Tech
+#### Graduate Teaching Assistant, Georgia Tech
 Atlanta, GA
 August 2016 -- September 2017
 
-I worked as a TA for CS 6476, Intro to Computer Vision, helping about 200 students through the OMSCS program. As a TA for the course, I would host office hours, answer student questions online, and grade assignments.
+I worked as a GTA for CS 6476, Intro to Computer Vision, helping about 200 students through the OMSCS program each semester. As a TA for the course, I would host office hours, answer student questions online, and grade assignments.
 
 ***
 #### Applications Developer, AT&T
@@ -79,6 +85,8 @@ Banerjee, S., **Silva, A.**, Chernova, S. (2018) "Robot Classification of Human 
 **Silva, Andrew**, and Sonia Chernova. "Unsupervised Role Discovery Using Temporal Observations of Agents." Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems, 2019. [Download](assets/pdfs/sc_roles.pdf) 
 
 **Silva, Andrew**, and Matthew Gombolay. "ProLoNets: Neural-encoding Human Experts' Domain Knowledge to Warm Start Reinforcement Learning." arXiv preprint arXiv:1902.06007 (2019). [Link](https://arxiv.org/pdf/1902.06007.pdf)
+
+Paleja, Rohan, **Andrew Silva**, and Matthew Gombolay. "Personalized Apprenticeship Learning from Heterogeneous Decision-Makers." arXiv preprint arXiv:1906.06397 (2019).[Link](https://arxiv.org/pdf/1906.06397.pdf)
 
 Seraj, Esmaeil, **Andrew Silva**, and Matthew Gombolay. "Safe Coordination of Human-Robot Firefighting Teams." arXiv preprint arXiv:1903.06847 (2019). [Link](https://arxiv.org/pdf/1903.06847.pdf)
 
