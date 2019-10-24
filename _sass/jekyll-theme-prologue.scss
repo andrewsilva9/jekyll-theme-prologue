@@ -295,6 +295,12 @@
 		}
 	}
 
+	.my_image {
+		width: 32%;
+	    float: left;
+	    margin-right: 1em;
+	}
+
 /* List */
 
 	ul {
@@ -659,7 +665,7 @@
 	#main {
 		margin-left: 375px;
 		> section {
-			text-align: center;
+			text-align: left;
 		}
 		> article {
 			text-align: left;
