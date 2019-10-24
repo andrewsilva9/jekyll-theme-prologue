@@ -6,8 +6,8 @@ auto-header: none
 icon: fa-comment
 order: 1
 ---
-### Welcome to my site!
-Check out my blog to see what I've been up to (and had time to post about), and feel free to reach out!
+### Welcome!
+Check out my Resume & Publications section to see more detail about where I've been and what I've done, or my Blog section to see what I've had time to post about.
 
 <!-- 
 <footer>
